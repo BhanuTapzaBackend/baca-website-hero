@@ -4,7 +4,7 @@ export interface PillarConfig {
   /** Display numeral — purely presentational, not translated. */
   n: string
 }
-
+/** Pillars of approach */
 export const PILLARS: PillarConfig[] = [
   { key: 'sourcing', n: '01' },
   { key: 'quality', n: '02' },
